@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class subtractNumbers {
+
+    public static void main(String[] args) {
+        
+        Scanner add=new Scanner(System.in);
+        System.out.println("Enter first number");
+        int a=add.nextInt();
+        
+        System.out.println("Enter second number");
+        int b=add.nextInt();
+        
+        int c=a-b;
+        System.out.println(c);
+    }
+}
